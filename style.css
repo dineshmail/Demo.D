@@ -348,18 +348,15 @@ p{
 /*==================================================
     PRELOADER
 ==================================================*/
-
 #preloader{
-
     position:fixed;
-
     inset:0;
-
     background:#fff;
-
     z-index:99999;
-
-    display:flexnone !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
     
 /*===============================================
     cjaged display: flex;
