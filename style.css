@@ -359,7 +359,11 @@ p{
 
     z-index:99999;
 
-    display:flex;
+    display:flexnone !important;
+    
+/*===============================================
+    cjaged display: flex;
+==================================================*/
 
     align-items:center;
 
